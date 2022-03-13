@@ -3,9 +3,10 @@ import org.testng.annotations.Test;
 import com.base.BaseClass;
 
 public class SampleTest extends BaseClass {
-
+	 String k="Jyothi";
 	@Test
-	public void testCase1() {
+	 void testCase1() {
+		// String k="Jyothi";
 
 		System.out.println("This is testCase1");
 		System.out.println("This is New Comment");
